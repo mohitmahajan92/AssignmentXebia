@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="msg_server_not_responding">Server not responding.</string>
+    <string name="msg_warn_internet">No internet connection!</string>
+</resources>

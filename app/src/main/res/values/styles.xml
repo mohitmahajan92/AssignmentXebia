@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <declare-styleable name="CircularImageView">
+        <attr name="ci_borderColor" format="color" />
+        <attr name="ci_borderWidth" format="dimension" />
+        <attr name="ci_placeholderBackgroundColor" format="color" />
+        <attr name="ci_placeholderText" format="string" />
+        <attr name="ci_placeholderTextColor" format="color" />
+        <attr name="ci_placeholderTextSize" format="dimension" />
+        <attr name="ci_checked" format="boolean" />
+        <attr name="ci_checkedStateBackgroundColor" format="color" />
+        <attr name="ci_shadowRadius" format="float" />
+        <attr name="ci_shadowColor" format="color" />
+    </declare-styleable>
+
+
+</resources>
